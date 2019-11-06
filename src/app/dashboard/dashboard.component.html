@@ -1,0 +1,159 @@
+<div style="width: 70%; margin: 10px auto">
+    <mat-grid-list cols="12" rowHeight="25px" [gutterSize]="'15px'">
+        <mat-grid-tile id="photo"
+            [colspan]="4"
+            [rowspan]="6"
+            class="light-blue">
+            <img src="../../assets/IMG.jpg" alt="Photo" style="width: 150%">
+        </mat-grid-tile>
+        <mat-grid-tile id="name"
+            [colspan]="8"
+            [rowspan]="2"
+            class="dark-blue">
+            {{ name }}
+        </mat-grid-tile>
+        <mat-grid-tile id="achievements"
+            [colspan]="4"
+            [rowspan]="7"
+            routerLink="/achievements"
+            class="off-white">
+            <mat-grid-tile-header >
+                <div style="text-align: center; width: 100%">
+                {{ achievementsTitle }}
+                </div>        
+            </mat-grid-tile-header>
+            <section id="content">
+                <mat-list>
+                    <mat-list-item *ngFor="let achievement of achievements">
+                        <mat-icon mat-list-icon>star</mat-icon>
+                        <p mat-line> {{achievement.achievementShortDetail}} </p>
+                      </mat-list-item>
+                </mat-list>
+            </section>            
+        </mat-grid-tile>
+        <mat-grid-tile id="personal"
+            [colspan]="4"
+            [rowspan]="6"
+            class="light-blue">
+            <mat-grid-tile-header>
+                <div style="text-align: center; width: 100%">
+                    {{personalProfileTitle}}
+                </div> 
+            </mat-grid-tile-header>    
+        </mat-grid-tile>
+        <mat-grid-tile id="contact"
+            [colspan]="4"
+            [rowspan]="6"
+            class="light-blue">
+            <mat-grid-tile-header>
+                <div style="text-align: center; width: 100%">
+                    {{contactTitle}}
+                </div> 
+            </mat-grid-tile-header>
+            <section id="content">
+                <mat-list *ngIf="contact">
+                    <mat-list-item>
+                        <p mat-line><em><b>Email:</b></em> {{contact.email}} </p>
+                    </mat-list-item>
+                    <mat-list-item>
+                        <p mat-line><em><b>Mobile Number:</b></em> {{contact.MobileNumber}} </p>
+                    </mat-list-item>
+                    <mat-list-item>
+                        <p mat-line><em><b>Alternate Number:</b></em> {{contact.AlternateNumber}} </p>
+                    </mat-list-item>
+                    <mat-list-item>
+                        <p mat-line><em><b>Address:</b></em>{{contact.Address}} </p>
+                    </mat-list-item>
+                </mat-list>
+                </section>      
+        </mat-grid-tile>
+        <mat-grid-tile id="work-ex"
+            [colspan]="4"
+            [rowspan]="6"
+            class="dark-blue"
+            routerLink="/workExp">
+            <mat-grid-tile-header>
+                <div style="text-align: center; width: 100%">
+                    {{workExTitle}}
+                </div> 
+            </mat-grid-tile-header>  
+            <section id="content">
+                <mat-list>
+                    <mat-list-item *ngFor="let workEx of workExp">
+                        <mat-icon mat-list-icon>business_center</mat-icon>
+                        <p mat-line> <b>{{workEx.companyName}}</b> - <em>({{workEx.timeSpan}}) -</em> From {{workEx.startTime}} to {{workEx.endTime}}</p>
+                    </mat-list-item>
+                </mat-list>
+            </section>   
+        </mat-grid-tile>
+        <mat-grid-tile id="education"
+            [colspan]="4"
+            [rowspan]="7"
+            routerLink="/education"
+            class="dark-blue">
+            <mat-grid-tile-header>
+                <div style="text-align: center; width: 100%">
+                    {{educationTitle}}
+                </div> 
+            </mat-grid-tile-header>
+            <section id="content">
+                <mat-list>
+                    <mat-list-item *ngFor="let education of education">
+                        <mat-icon mat-list-icon>school</mat-icon>
+                        <p mat-line> {{education.shortDesc}} </p>
+                    </mat-list-item>
+                </mat-list>
+            </section>       
+        </mat-grid-tile>
+        <mat-grid-tile id="language"
+            [colspan]="4"
+            [rowspan]="4"
+            class="off-white">
+            <mat-grid-tile-header>
+                <div style="text-align: center; width: 100%">
+                    {{languagesTitle}}
+                </div> 
+            </mat-grid-tile-header> 
+            <section id="content" style="width:100%; padding: 40px 10px 0;">               
+                    <mat-chip-list aria-label="Languages">
+                        <mat-chip *ngFor="let language of languages">{{ language }}</mat-chip>
+                    </mat-chip-list>             
+                </section>            
+        </mat-grid-tile>
+        <mat-grid-tile id="hobbies"
+            [colspan]="4"
+            [rowspan]="7"
+            class="light-blue"
+            >
+            <mat-grid-tile-header>
+                <div style="text-align: center; width: 100%">
+                    {{hobbiesTitle}}
+                </div> 
+            </mat-grid-tile-header>
+            <section id="content">               
+                <mat-list>
+                    <mat-list-item *ngFor="let hobby of hobbies">
+                        <mat-icon mat-list-icon>mood</mat-icon>
+                        <p mat-line> {{hobby}} </p>
+                    </mat-list-item>
+                </mat-list>        
+            </section>           
+        </mat-grid-tile>
+        <mat-grid-tile id="skills"
+            [colspan]="8"
+            [rowspan]="5"
+            class="dark-blue"
+            routerLink="/skills">
+            <mat-grid-tile-header>
+                <div style="text-align: center; width: 100%">
+                    {{skillsTitle}}
+                </div> 
+            </mat-grid-tile-header>
+            <section id="content" style="width:100%; padding: 40px 10px 0;">
+                <mat-chip-list aria-label="Skills">
+                    <mat-chip *ngFor="let skill of skills">{{ skill }}</mat-chip>
+                </mat-chip-list> 
+            </section>          
+        </mat-grid-tile>
+    </mat-grid-list>
+</div>

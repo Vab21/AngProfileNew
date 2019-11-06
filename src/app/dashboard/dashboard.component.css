@@ -1,0 +1,42 @@
+mat-grid-tile {
+    cursor: pointer;
+}
+mat-grid-tile-header {
+    text-align: center;
+}
+
+mat-grid-tile .mat-list-base mat-list-item.mat-list-item.mat-list-item-with-avatar {
+    height: 40px;
+}
+mat-grid-tile .mat-list-base .mat-list-item {
+    color: #000;
+    font-size: 12px;
+}
+mat-grid-tile .mat-list-base .mat-list-item .mat-line {
+    white-space: normal;
+}
+mat-grid-tile.dark-blue {
+    background: #488AAC;   
+}
+mat-grid-tile.light-blue {
+    background: lightblue;
+}
+mat-grid-tile.off-white {
+    background: rgb(228, 221, 208);
+    color: black;
+} 
+mat-grid-tile#photo {
+    background: lightblue;
+}
+mat-grid-tile .mat-raised-button.mat-primary{
+    background: #488AAC;
+}
+mat-grid-tile mat-list-item.mat-list-item {
+    height: 30px;
+}
+mat-grid-tile#skills .mat-chip.mat-standard-chip {
+    background-color: #2d566b;;
+}
+mat-grid-tile#language .mat-chip.mat-standard-chip {
+    background-color: #8e8981;
+}

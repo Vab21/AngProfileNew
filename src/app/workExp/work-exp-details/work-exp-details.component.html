@@ -1,0 +1,62 @@
+<mat-toolbar color="primary">
+    <mat-toolbar-row>
+        <span>Work Experience</span>
+        <span class="spacer"></span>
+        <mat-icon class="icon-dashboard" routerLink="/dashboard">dashboard</mat-icon>
+    </mat-toolbar-row>
+</mat-toolbar>
+<mat-tab-group>
+    <mat-tab *ngFor="let workEx of workExp" label="{{workEx.companyName}} ({{workEx.timeSpan}}) "> 
+        <mat-card class="workEx-card mat-elevation-z6">            
+            <mat-card-content>
+                <div id="start">
+                    <span class="label">Started working on: </span><span class="value"> {{workEx.startTime}} </span>
+                </div>
+                <div id="end">
+                    <span class="label">Ended working on: </span><span class="value">{{workEx.endTime}}</span>
+                </div>
+                
+                <hr>
+                <section id="position">
+                    Position: {{workEx.position}}
+                </section >
+                <section id="description">
+                    <h3>Project Description</h3>
+                    <mat-list>
+                        <mat-list-item *ngFor="let desc of workEx.fullDesc">
+                            <mat-icon>label</mat-icon>
+                            {{desc}}
+                        </mat-list-item>                        
+                    </mat-list>
+                </section> 
+                <section id="responsibilties">
+                    <h3>Responsibilities</h3>
+                    <mat-list>
+                        <mat-list-item *ngFor="let responsibilty of workEx.responsibilities">
+                            <mat-icon>label</mat-icon>
+                            {{responsibilty}}
+                        </mat-list-item>                         
+                    </mat-list>
+                </section>
+                <section id="focus-areas">
+                        <h3>Focus Areas</h3>
+                        <mat-list>
+                            <mat-list-item *ngFor="let focusArea of workEx.focusAreas">
+                                <mat-icon>label</mat-icon>
+                                {{focusArea}}
+                            </mat-list-item>  
+                        </mat-list>
+                </section> 
+                <section id="tech-stack">
+                    <h3>Technology Stack</h3>
+                    <mat-chip-list aria-label="TechStack">
+                        <mat-chip *ngFor="let tech of workEx.languages">{{ tech }}</mat-chip>
+                    </mat-chip-list> 
+                </section>  
+            </mat-card-content>
+            <mat-card-actions>
+                
+            </mat-card-actions>
+        </mat-card> 
+    </mat-tab>
+</mat-tab-group>

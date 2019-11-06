@@ -1,0 +1,46 @@
+.spacer{
+    flex: 1 1 auto;
+}
+mat-card.workEx-card {
+    width: 80%;
+    margin: 10px auto;
+    padding: 20px;
+}
+span.label {
+    font-style: italic;
+    font-weight: 600;
+}
+div#end {
+    display: inline-block;
+    float: right;
+}
+div#start {
+    display: inline-block;
+}
+section#position {
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+section#description, section#focus-areas {
+    
+    padding: 10px;
+    transform: skew(10deg);
+    background: #111111;
+    margin: 10px auto;
+    width: 85%;
+}
+section#responsibilties, section#tech-stack {
+    padding: 10px;
+    transform: skew(-15deg);
+    background: #000000;
+    margin: 10px auto;
+    width: 85%;
+}
+mat-card.workEx-card h3 {
+    font-style: italic;
+}
+mat-chip-list {
+    margin: 10px;
+}
