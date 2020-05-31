@@ -1,0 +1,133 @@
+[{
+    "username": "vaibhav",
+    "skills": [
+        "HTML5", 
+        "CSS3", 
+        "Javascript", 
+        "JQuery", 
+        "Angular2+", 
+        "Java",
+        "Struts2",
+        "Hibernate", 
+        "WordPress", 
+        "Bootstrap",
+        "Python",
+        "Data Science",
+        "Machine Learning",
+        "SQL",
+        "DevOps"
+    ],
+    "skillDetails": [
+        {
+            "name": "HTML5",
+            "version": "5",
+            "experience": "4 years"
+        },
+        {
+            "name": "CSS3",
+            "version": "3",
+            "experience": "4 years"
+        },
+        {
+            "name": "Javascript",
+            "version": "ES6",
+            "experience": "4 years"
+        },
+        {
+            "name": "JQuery",
+            "version": "3.x",
+            "experience": "4 years"
+        },
+        {
+            "name": "Angular2+",
+            "version": "8",
+            "experience": "1 years 6 months"
+        },
+        {
+            "name": "Struts2",
+            "version": "2.5",
+            "experience": "3 years"
+        },
+        {
+            "name": "WordPress",
+            "version": "3",
+            "experience": "1 year"
+        },
+        {
+            "name": "Bootstrap",
+            "version": "4.x",
+            "experience": "3 years"
+        },
+        {
+            "name": "Python",
+            "version": "3.7.x",
+            "experience": "1 year"
+        }        
+    ]
+},
+{
+    "username": "vabjain",
+    "skills": [
+        "HTML5", 
+        "CSS3", 
+        "Javascript", 
+        "JQuery", 
+        "Angular2+", 
+        "Java",
+        "Struts2", 
+        "WordPress", 
+        "Bootstrap",
+        "Python",
+        "Data Science",
+        "Machine Learning",
+        "SQL",
+        "DevOps"
+    ],
+    "skill-details": [
+        {
+            "name": "HTML5",
+            "version": "5",
+            "experience": "4 years"
+        },
+        {
+            "name": "CSS3",
+            "version": "3",
+            "experience": "4 years"
+        },
+        {
+            "name": "Javascript",
+            "version": "ES6",
+            "experience": "4 years"
+        },
+        {
+            "name": "JQuery",
+            "version": "3.x",
+            "experience": "4 years"
+        },
+        {
+            "name": "Angular2+",
+            "version": "8",
+            "experience": "1 years 6 months"
+        },
+        {
+            "name": "Struts2",
+            "version": "2.5",
+            "experience": "3 years"
+        },
+        {
+            "name": "WordPress",
+            "version": "3",
+            "experience": "1 year"
+        },
+        {
+            "name": "Bootstrap",
+            "version": "4.x",
+            "experience": "3 years"
+        },
+        {
+            "name": "Python",
+            "version": "3.7.x",
+            "experience": "1 year"
+        }        
+    ]
+}]

@@ -1,0 +1,72 @@
+[{
+    "username": "vaibhav",
+    "workExp": [
+        {
+            "timeSpan": "1 year 1 month",
+            "startTime": "Jan, 2015",
+            "endTime": "Feb, 2016",
+            "companyName": "42 Works",
+            "position": "WordPress Developer",
+            "responsibilities": ["Responsible for Coding and Testing websites"],
+            "shortDesc": "Responsible for coding a website from scratch using WordPress custom themes and plugins, PHP, HTML5, CSS3, Bootstrap, JavaScript and JQuery.",
+            "languages": 
+            [
+                "HTML5",
+                "CSS3", 
+                "JavaScript", 
+                "JQuery"
+            ],
+            "ide": "Netbeans",
+            "operatingSystem": "Ubuntu",
+            "fullDesc": [
+                "Worked on creation of 8 websites in a span of 1 year 2 months. Responsible for coding a website from scratch using WordPress, PHP, HTML5, CSS3, Bootstrap, JavaScript and JQuery.",
+                "Most of the websites use WordPress plugin WooCommerce used for e-commerce websites and shopping websites, handling of mailing subscription through plugins, etc.",
+                "Used creative designing and styling in HTML & CSS to make the website interactive and look beautiful."
+            ],
+            "focusAreas": [
+                "Converting PSD’s to HTML template & use CSS3, Bootstrap 3, JQuery as per requirement",
+                "Creating custom WordPress theme using PHP as per requirement",
+                "Integrating Wordpress plugins into own custom theme"
+            ]
+        },
+        {
+            "timeSpan": "3 year 5 month",
+            "startTime": "March, 2016",
+            "endTime": "till date",
+            "companyName": "Tata Consultancy Services",
+            "position": "Software Developer",
+            "responsibilities": [
+                "Single- handedly managing the application from Offshore.",
+                "Responsible for Requirement Analysis and preparing Requirement Specification document along with estimation and construction planning for the project",
+                "Development to support new business requirement to improve the performance of the application."
+            ],
+            "shortDesc": "Application Development and Maintenance of Billing Web and Web Billing System for Quest Diagnostics",
+            "languages": 
+            [
+                "HTML5",
+                "CSS3", 
+                "JavaScript",
+                "JQuery",
+                "Angular 2+",
+                "Struts2",
+                "Java",
+                "Hibernate"
+            ],
+            "ide": "Eclipse",
+            "operatingSystem": "Windows 7",
+            "fullDesc": [
+                "Working with modules of Web Billing System Application (WBS). WBS is web based application which is front end of Quest Billing System (QBS).",
+                "It is used mainly by internal Quest customer Service Representatives (CSR) responsible for invoice related processing such as adding adjustments, changing insurance, transferring bills, etc",
+                "Apart from application's maintanace and support, worked on multiple POC’s where I developed the display pages using angular material framework & CSS3 styling in a short span of time",
+                "Worked on process improvement (PI) of application to redesign its front-end using angular, HTML5, CSS3 and Bootstrap4"
+            ],
+            "focusAreas": [
+                "Maintenance of application which includes production support activities",
+                "Enhancements in WBS application such as including new search functionality in the application",
+                "Consumption of SOAP (top to bottom approach)/Rest web services created by other Quest’s vendors to get the Billing / insurance info.",
+                "Creation of charts using google API",
+                "Providing an efficient solution to customer quickly and work in Agile mode"
+            ]
+        }
+    ]
+}]

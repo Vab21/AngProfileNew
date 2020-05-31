@@ -27,6 +27,7 @@ export class DashboardComponent implements OnInit {
   hobbies: Observable<any>;
   workExp: Observable<any>;
   ngOnInit() {
+    sessionStorage.setItem('username', 'vaibhav');
     this.dashboardDataService.getAchievementsFromUrl().subscribe((data: any) => {
       this.achievements = data;
     });

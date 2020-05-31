@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DashboardDataService } from '../../dashboard/dashboard-data.service';
+import { Skills } from '../skills';
 
 @Component({
   selector: 'app-skills-details',
@@ -8,9 +9,9 @@ import { DashboardDataService } from '../../dashboard/dashboard-data.service';
 })
 export class SkillsDetailsComponent implements OnInit {
 
-  constructor(private dashboardService:DashboardDataService) {  }
+  constructor(private dashboardService: DashboardDataService) {  }
   data: any;
-  skills: any;
+  skills: Skills[];
   columnsToDisplayHeader = ['Name', 'Version', 'Experience'];
   columnsToDisplayData = ['name', 'version', 'experience'];
   expandedElement: any | null;

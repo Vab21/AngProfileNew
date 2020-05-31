@@ -10,7 +10,7 @@ import {  MatCardModule,
           MatFormFieldModule,
           MatInputModule,
           MatTableModule,
-          MatChipsModule, 
+          MatChipsModule,
           MatTabsModule} from '@angular/material';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -50,7 +50,7 @@ import { WorkExpDetailsComponent } from './workExp/work-exp-details/work-exp-det
     MatInputModule,
     MatTableModule,
     MatChipsModule,
-    MatTabsModule
+    MatTabsModule,
   ],
   providers: [
     UserLoginService,

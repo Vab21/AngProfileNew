@@ -1,0 +1,53 @@
+[{
+    "username": "vaibhav",
+    "edu": [{
+        "name": "Metrics",
+        "schoolCollegeName": "Bhavan Vidyalaya",
+        "boardUniv": "C.B.S.E",
+        "marks": "88.4%",
+        "year": "2009",
+        "shortDesc": "In year 2009, passed metrics from Bhavan Vidyalaya, Chandigarh."
+    },
+    {
+        "name": "Higher Secondary",
+        "marks": "80%",
+        "boardUniv": "C.B.S.E",
+        "schoolCollegeName": "S.D. Public School, Chandigarh",
+        "year": "2011",
+        "shortDesc": "In year 2011, completed higher secondary education from S.D. Public School."
+    },
+    {
+        "marks": "7.59 (CGPA)",
+        "schoolCollegeName": "CCET Sector-26, Chandigarh",
+        "name": " B.E. CSE",
+        "boardUniv": "Punjab University",
+        "year": "2015",
+        "shortDesc": "In year 2015, graduated from Punjab University as Computer Science Engg."
+    }]
+},{
+    "username": "vabjain",
+    "edu": [{
+        "name": "Metrics",
+        "schoolCollegeName": "Bhavan Vidyalaya",
+        "boardUniv": "C.B.S.E",
+        "marks": "88.4%",
+        "year": "2009",
+        "shortDesc": "In year 2009, passed metrics from Bhavan Vidyalaya, Chandigarh."
+    },
+    {
+        "name": "Higher Secondary",
+        "marks": "80%",
+        "boardUniv": "C.B.S.E",
+        "schoolCollegeName": "S.D. Public School, Chandigarh",
+        "year": "2011",
+        "shortDesc": "In year 2011, completed higher secondary education from S.D. Public School."
+    },
+    {
+        "marks": "7.59 (CGPA)",
+        "schoolCollegeName": "CCET Sector-26, Chandigarh",
+        "name": " B.E. CSE",
+        "boardUniv": "Punjab University",
+        "year": "2015",
+        "shortDesc": "In year 2015, graduated from Punjab University as Computer Science Engg."
+    }]
+}]

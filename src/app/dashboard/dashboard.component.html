@@ -4,7 +4,7 @@
             [colspan]="4"
             [rowspan]="6"
             class="light-blue">
-            <img src="../../assets/IMG.jpg" alt="Photo" style="width: 150%">
+            <img src="app/assets/IMG.jpg" alt="Photo" style="width: 150%">
         </mat-grid-tile>
         <mat-grid-tile id="name"
             [colspan]="8"
@@ -39,7 +39,10 @@
                 <div style="text-align: center; width: 100%">
                     {{personalProfileTitle}}
                 </div> 
-            </mat-grid-tile-header>    
+            </mat-grid-tile-header> 
+            <section id="personal" style="padding: 15px">
+                I am Computer Science Engineer, full stack developer. My motto is to keep learning and keep growing as world is full of opportunities for knowledge gainers.
+            </section>   
         </mat-grid-tile>
         <mat-grid-tile id="contact"
             [colspan]="4"
@@ -53,16 +56,16 @@
             <section id="content">
                 <mat-list *ngIf="contact">
                     <mat-list-item>
-                        <p mat-line><em><b>Email:</b></em> {{contact.email}} </p>
+                        <p mat-line><em><b>Email:</b></em> vibhu.jain21@gmail.com </p>
                     </mat-list-item>
                     <mat-list-item>
-                        <p mat-line><em><b>Mobile Number:</b></em> {{contact.MobileNumber}} </p>
+                        <p mat-line><em><b>Mobile Number:</b></em> +91 9781623602 </p>
                     </mat-list-item>
                     <mat-list-item>
-                        <p mat-line><em><b>Alternate Number:</b></em> {{contact.AlternateNumber}} </p>
+                        <p mat-line><em><b>Alternate Number:</b></em> +91 9888065158 </p>
                     </mat-list-item>
                     <mat-list-item>
-                        <p mat-line><em><b>Address:</b></em>{{contact.Address}} </p>
+                        <p mat-line><em><b>Address:</b></em>Gurugram, India</p>
                     </mat-list-item>
                 </mat-list>
                 </section>      

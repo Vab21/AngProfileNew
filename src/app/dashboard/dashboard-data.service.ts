@@ -8,13 +8,13 @@ import { map } from 'rxjs/operators';
 })
 export class DashboardDataService {
   constructor(private http: HttpClient) { }
-  achievementsUrl = '../../assets/achievements.json';
-  contactUrl = '../../assets/contact.json';
-  educationUrl = '../../assets/education.json';
-  skillsUrl = '../../assets/skills.json';
-  languagesUrl = '../../assets/languages.json';
-  hobbiesUrl = '../../assets/hobbies.json';
-  workExpUrl = '../../assets/workExp.json';
+  achievementsUrl = 'app/assets/achievements.json';
+  contactUrl = 'app/assets/contact.json';
+  educationUrl = 'app/assets/education.json';
+  skillsUrl = 'app/assets/skills.json';
+  languagesUrl = 'app/assets/languages.json';
+  hobbiesUrl = 'app/assets/hobbies.json';
+  workExpUrl = 'app/assets/workExp.json';
   workExp: any;
   hobbies: any;
   contact: any;

@@ -9,8 +9,7 @@ import { WorkExpDetailsComponent } from './workExp/work-exp-details/work-exp-det
 
 
 const routes: Routes = [
-  { path: '', component: LoginComponent },
-  { path: 'dashboard', component: DashboardComponent },
+  { path: '', component: DashboardComponent },
   { path: 'achievements', component: AchievementsComponent },
   { path: 'education', component: EducationDetailsComponent },
   { path: 'skills', component: SkillsDetailsComponent },
